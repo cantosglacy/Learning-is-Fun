@@ -1,0 +1,184 @@
+body{
+    font: Arial, Helvetica, sans-serif;
+    background-color: rgb(243, 232, 212);
+}
+
+ #container {
+    width: 1050px;
+    
+    margin: 0 auto;
+}
+/*Header*/
+#header{
+    height: 100px;
+    padding: 10px 0;
+}
+#brand{
+    float: left;
+}
+h1 a{
+    font-size: 50px;
+    font-weight: 100;
+    color: #054b10;
+    text-decoration: none;
+}
+#searchBox{
+    float: right;
+    background: linear-gradient(#FFD55A,rgb(133, 115, 16));
+    width: 400px;
+    height: 50px;
+    padding: 20px 20px 0px 20px;
+    margin-top: 20px;
+}
+
+.text{
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: Orange;
+    border: 1px solid green;
+    background: white url("https://img.icons8.com/nolan/30/search.png")  right center no-repeat;
+}
+
+.submit{
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background: #6DD47E;
+    font-size: 15px;
+    
+}
+
+.clear{
+clear: both;
+
+}
+
+/*Menu*/
+#menu{margin: 30px 0;
+    height: 70px;
+    background: linear-gradient(#bbece7,#29988c);
+    padding: 2px 0;
+}
+ul{
+    list-style: none;
+}
+
+#menu ul li{
+    float: left;
+    padding: 0 30px ;
+    height: 30px;
+    border-right: 1px solid #44794d ;
+
+}
+
+#menu ul li:last-child{
+    border-right: none;
+}
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #44794d;
+    line-height: 30px;
+    transition: font-size .24s ease;
+    -webkit-transition: font-size .24s ease;
+    -moz-transition: font-size .24s ease;
+    -o-transition: font-size .24s ease;
+    -ms-transition: font-size .24s ease;
+}
+
+
+#menu ul li a:hover, #menu ul li a.active{
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+
+}
+/*Introduction*/
+#introduction{
+    background: linear-gradient(#387ea2, #9ec7dc);
+    padding: 30px;
+    margin: 46px 0;
+
+}
+
+#introduction h3{
+    font-size: 45px;
+    color: #022f46;
+    font-weight: normal;
+}
+
+#introduction p{
+    font-size: 25px;
+    color: #043f5d;
+    text-align: justify;
+}
+
+/*SIDEBAR*/
+
+.sidebar{
+    height: 500px;
+    width: 450px;
+    border: 1px solid #c3c4c5;
+    border-radius: 10px;
+    padding:10px 30px;
+    width
+}
+
+#leftsidebar{
+    float: left;
+}
+#rightsidebar{
+    float: right;
+}
+
+.sidebar h3{color: #0ef60e;
+    font-size: 30px;
+}
+.sidebar ul{
+    padding-top: 1px;
+}
+#leftsidebar ul li{
+    padding: 4px 0 4px 50px;
+    list-style-image: url("https://img.icons8.com/officel/20/000000/arrow.png");
+    }
+
+    #rightsidebar ul li{
+    padding: 20px 0 20px 70px;
+    background: url("https://img.icons8.com/doodle/40/000000/checkmark.png");
+    background-repeat: no-repeat;
+    
+}
+    
+
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #1a0a8f;
+     transition: font-size .24s ease;
+    -webkit-transition: font-size .24s ease;
+    -moz-transition: font-size .24s ease;
+    -o-transition: font-size .24s ease;
+    -ms-transition: font-size .24s ease;
+
+}
+.sidebar ul li a:hover, .sidebar ul li a.active{
+    text-decoration: none;
+    color:green ;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+/*FOOTER*/
+.footer{
+    height: 60px;
+    background: linear-gradient(rgb(166, 223, 166),rgb(126, 223, 223));
+    padding: 20px 30px;
+    margin-top:15px;
+
+
+}
